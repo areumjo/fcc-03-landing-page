@@ -43,10 +43,16 @@ nav {
   margin: 130px 0 0 0;
 }
 
+.welcome-box {
+  display: flex;
+  padding-bottom: 30px;
+}
+
 figure {
   max-width: 100%;
   overflow: hidden; 
-  margin: 0;   
+  margin: 0 auto;   
+  display: block;
 }
 
 figure img {
@@ -158,8 +164,6 @@ form .btn {
 .subscript-img {
   display: inline;
   margin: 0 auto;
-  height: 100%;
-  width: auto;
 }
 
 .video {
