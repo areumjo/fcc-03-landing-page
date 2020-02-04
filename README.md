@@ -41,3 +41,30 @@
 
 - `Helpful Alpaca` is a yarn box subscription company. They provide monthly subscription program which give a box of yarn, craft tools, and pattern to help. User can choose one of three subscription options and landing page will have those information as well as helpful video and instruction to get started.
   - find company logo in `resource` folder
+
+### Notes for future
+- Used Google Font - Alata
+```html
+<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+```
+```css
+font-family: 'Alata';
+```
+- Inserted Youtube video
+```html
+<iframe id="video" width="580" height="340" src="https://www.youtube.com/embed/SoyP-JXeDi0" frameborder="0">
+</iframe>
+```
+
+- Helpful color-code for CSS
+  - [w3schools](https://www.w3schools.com/colors/colors_names.asp)
+
+- [Free stock photo - Pexels](https://www.pexels.com/)
+
+### Snapshot
+- [Codepen- helpful alpaca landing page](https://codepen.io/areumjo/pen/GRgVZdZ)
+
+- Screenshot of the Tribute Webpage
+  - ![Screenshot1](resource/fcc-landing-page-snap.png)
+  - ![Screenshot2](resource/fcc-landing-page-snap-2.png)
+    - for smaller screen using `@media query`

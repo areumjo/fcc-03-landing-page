@@ -1,0 +1,210 @@
+body {
+  font-family: 'Alata', san-serif;
+}
+
+i {
+  font-family: 'Lobster';
+}
+
+header {
+  width: 100%;
+  display: flex;
+  z-index:1;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+#header-img {
+  max-width: 150px;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 30px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-family: 'Lobster';
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.container {
+  padding: 0 10px;
+  margin: 130px 0 0 0;
+}
+
+figure {
+  max-width: 100%;
+  overflow: hidden; 
+  margin: 0;   
+}
+
+figure img {
+  display: block;
+  margin: -5.875% 0;
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+.centered {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  font-size: 55px;
+}
+
+.logo-box {
+  background-color: #F3F3F3;
+  padding: 30px 0;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.about-box {
+  max-width: 450px;
+  padding: 0 50px;
+}
+
+.start-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: gray;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+.start-btn:hover {
+  background-color: lightcoral;
+}
+
+form {
+  padding: 50px 0;
+  font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+form input {
+	box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+  margin-top: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+form .btn {
+  box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: lightcoral;
+  border: none;
+	color: #fff;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.subscript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscript-div {
+  max-width: 300px;
+  min-height: 450px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0 10px;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscript-div:hover {
+  background-color: gainsboro;
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.subscript-img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.video {
+  margin: 0 auto;
+  width: 55%;
+  padding: 50px;
+}
+
+footer {
+  background-color: lightcoral;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .subscript {
+    flex-direction: column;
+  }
+  
+  .subscript-div {
+    min-width: 400px;
+    min-height: 400px;
+    margin: 20px 0;
+  }
+  
+  .video {
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    justify-content: flex-end;
+  }
+}
